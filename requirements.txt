@@ -1,0 +1,52 @@
+# requirements.txt
+#The core library from Hugging Face for downloading, loading, and using pretrained models.
+transformers==4.44.2
+
+#A popular deep learning framework (choose one, or include both if you use them).
+#PyTorch is very common for LLM work.
+torch==2.4.0
+
+#The Hugging Face library for easily accessing and processing datasets.
+datasets==2.20.0
+
+#For tokenization tasks, especially with newer models.
+tokenizers==0.19.1
+
+#Accelerates PyTorch training on any hardware (CPU, GPU, multi-GPU).
+accelerate==0.32.1
+
+#Data Handling and Manipulation
+#------------------------------
+#Powerful library for data analysis and manipulation.
+pandas==2.2.2
+
+#Fundamental package for scientific computing with Python.
+numpy==1.26.1
+
+#Training Utilities and Monitoring
+#---------------------------------
+#For creating smart, fast progress bars.
+tqdm==4.66.4
+
+#For logging metrics and visualizing training progress.
+tensorboard==2.17.0
+
+#For tracking experiments, logging parameters, and saving models.
+mlflow==2.15.0
+
+#Optional Libraries (Uncomment as needed)
+#----------------------------------------
+#For hyperparameter optimization.
+optuna==3.6.1
+#For NVIDIA GPUs, provides tools to monitor and profile.
+pynvml==11.5.0
+#A library for efficient training, often used for very large models.
+deepspeed==0.14.4
+#Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA.
+peft==0.12.0
+#For running models with lower precision to save memory.
+bitsandbytes==0.40.1
+#For evaluating your model's performance.
+evaluate==0.4.2
+#For handling environment variables (e.g., API keys).
+python-dotenv==1.0.1
