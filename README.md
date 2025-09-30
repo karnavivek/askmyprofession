@@ -1,2 +1,8 @@
 # askmyprofession
-AskMyProfession is a Domain-Specific Mini-GPT, which is trained on select professions in the world. Its like directly asking someone who works in that domain. 
+AskMyProfession allows users to access "niche" Domain Experts (eg.: Operations Research Scientist (ORS)) which are fine-tuned for your niche work! 
+
+Base Model: Meta's Llama 3.2 1B Instruct
+
+![Visual Representation of AskMyProfession Page](image.png)
+
+__More Details Will be Added Soon__
