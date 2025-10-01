@@ -50,3 +50,5 @@ bitsandbytes==0.40.1
 evaluate==0.4.2
 #For handling environment variables (e.g., API keys).
 python-dotenv==1.0.1
+
+docling
