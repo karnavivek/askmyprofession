@@ -18,8 +18,8 @@ class Response(BaseModel):
 
 def llm_call(data: str, num_records: int = 5) -> dict:
     stream = completion(
-        # model='ollama/qwen2.5:14b', 
-        model="ollama/llama3.2:1b",
+        model='ollama/qwen2.5:14b', 
+        # model="ollama/llama3.2:1b",
         messages=[
             {"role": "user",
              "content": prompt_template(data, num_records),

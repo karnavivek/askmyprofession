@@ -3,6 +3,8 @@ AskMyProfession allows users to access "niche" Domain Experts (eg.: Operations R
 
 Base Model: Meta's Llama 3.2 1B Instruct
 
-![Visual Representation of AskMyProfession Page](image.png)
+![Training Custom LLM on RunPod](askmyprofession_workspace_on_runpod.png)
+
+Custom Model Hosted on __Hugging Face__ : https://huggingface.co/karnavivek/Constraint_Learning_LLM/tree/main
 
 __More Details Will be Added Soon__
